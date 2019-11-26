@@ -1,0 +1,77 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarnpkg add react-leaflet-context-menu
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.2
+
+Platform: 
+  linux arm
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-leaflet-context-menu: Not found
+      at Request.params.callback [as _callback] (/usr/lib/nodejs/yarn/lib/util/request-manager.js:440:18)
+      at Request.self.callback (/usr/lib/nodejs/request/request.js:185:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (/usr/lib/nodejs/request/request.js:1161:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (/usr/lib/nodejs/request/request.js:1083:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1103:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "moby-dick",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "bootstrap": "^4.3.1",
+      "geolocation": "^0.2.0",
+      "leaflet": "^1.5.1",
+      "leaflet-contextmenu": "^1.4.0",
+      "react": "^16.11.0",
+      "react-bootstrap": "^1.0.0-beta.14",
+      "react-contextmenu": "^2.13.0",
+      "react-dom": "^16.11.0",
+      "react-geolocation": "^1.0.4",
+      "react-leaflet": "^2.5.0",
+      "react-leaflet-control": "^2.1.1",
+      "react-router-dom": "^5.1.2",
+      "react-scripts": "3.2.0",
+      "webfont": "^9.0.0"
+    },
+    "scripts": {
+      "start": "HTTPS=true react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
